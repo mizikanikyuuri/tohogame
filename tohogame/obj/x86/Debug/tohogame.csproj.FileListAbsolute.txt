@@ -1,0 +1,5 @@
+C:\Users\Rafka\documents\visual studio 2010\Projects\tohogame\tohogame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rafka\documents\visual studio 2010\Projects\tohogame\tohogame\bin\Debug\tohogame.exe
+C:\Users\Rafka\documents\visual studio 2010\Projects\tohogame\tohogame\bin\Debug\tohogame.pdb
+C:\Users\Rafka\documents\visual studio 2010\Projects\tohogame\tohogame\obj\x86\Debug\tohogame.exe
+C:\Users\Rafka\documents\visual studio 2010\Projects\tohogame\tohogame\obj\x86\Debug\tohogame.pdb
