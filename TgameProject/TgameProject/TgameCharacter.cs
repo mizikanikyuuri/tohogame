@@ -72,12 +72,13 @@ namespace Tgame
             distance = state.ScrollWheelValue;
             delta_x = state.X - preState.X;
             delta_y = state.Y - preState.Y;
-            longtitude += delta_x / 10f;
-            ratitude += delta_y / 10f;
+            longtitude += delta_x / 100f;
+            ratitude += delta_y / 100f;
             location = new Vector3((float)(Math.Cos(ratitude) * Math.Sin(longtitude)),
                                    (float)(Math.Sin(ratitude)),
                                    (float)(Math.Cos(ratitude) * Math.Cos(longtitude)));
             location *= distance*0.01f;
+            location += target.Pos;
             lookAt = target.Pos;
             view = Matrix.CreateLookAt(
                 this.location,
@@ -261,6 +262,37 @@ namespace Tgame
     };
     public interface TgameObject {
     };
+    public class Map : TgameObject{
+        Model drawModel,realModel;
+        Map(Model drawModel,Model realModel) {
+            this.drawModel = drawModel;
+            this.realModel = realModel;
+
+        }
+        void Draw()
+        {
+            foreach (ModelMesh mesh in this.drawModel.Meshes)
+            {
+                mesh.Draw();
+            }
+        }
+
+
+    };
+    public interface Magic : TgameObject {
+        void Input();
+        void Update();
+        void Draw();
+    };
+    public interface FieldObject : TgameObject {
+        void Update();
+        void Draw();
+    };
+    public interface Item : TgameObject
+    {
+        void Update();
+        void Draw();
+    };
     public abstract class Character:TgameObject
     {
         protected Model model;
@@ -268,6 +300,7 @@ namespace Tgame
         private Vector3 pos, dir;
         private double xz_rad, yz_rad;
         protected Matrix position;
+        protected Vector3 migration;
         public Vector3 Pos {
              protected set {
                 pos = value;
@@ -334,9 +367,13 @@ namespace Tgame
             position = Matrix.CreateWorld(pos, dir, new Vector3(0, 1, 0));
             yz_rad = Math.Asin(parameter.Dir.Y);
             xz_rad = Math.Asin(parameter.Dir.X / Math.Sqrt(parameter.Dir.Z * parameter.Dir.Z + parameter.Dir.X * parameter.Dir.X));
+            migration = Vector3.Zero;
             return ;
         }
-        public virtual void Input() {
+        public virtual void Input()
+        {
+            pos += migration;
+            migration = Vector3.Zero;
             position = Matrix.CreateWorld(pos, dir, Vector3.Up);
         }
         public virtual void UpDate()
@@ -373,8 +410,6 @@ namespace Tgame
         public void Input(KeyboardState keyState)
         {
             float x=0,z=0;
-            Vector3 moveVec;
-            if (keyState.IsKeyDown(Keys.Up))
             if(keyState.IsKeyDown(Keys.Left))
                 x--;
             if(keyState.IsKeyDown(Keys.Right))
@@ -383,8 +418,9 @@ namespace Tgame
                 z++;
             if (keyState.IsKeyDown(Keys.Down))
                 z--;
-            moveVec = z * DirFront + x * DirRight;
-            moveVec = speed * Vector3.Normalize(moveVec);
+            migration = z * DirFront + x * DirRight;
+            if(!Vector3.Equals(migration,Vector3.Zero))
+             migration = speed * Vector3.Normalize(migration);
             base.Input();
         }
         public override void UpDate()

@@ -120,7 +120,7 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsGame2Content\TgameProjectContent.contentproj">
+    <ProjectReference Include="..\TgameProjectContent\TgameProjectContent.contentproj">
       <Name>TgameProjectContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{599BDB73-A7A7-4371-BC08-4054752B2276}</Project>

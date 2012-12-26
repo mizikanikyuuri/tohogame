@@ -2,22 +2,31 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>titileContent\OnFont.spritefont</Source>
-      <Name>titileContent\OnFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\titileContent\OnFont.xnb</Output>
-      <Time>2012-12-07T22:32:17.5628841+09:00</Time>
-    </Item>
-    <Item>
       <Source>titileContent\mouseTest.jpg</Source>
       <Name>titileContent\mouseTest</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\titileContent\mouseTest.xnb</Output>
+      <Output>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\mouseTest.xnb</Output>
       <Time>2012-11-27T23:44:04.9432801+09:00</Time>
+    </Item>
+    <Item>
+      <Source>titileContent\DefFont.spritefont</Source>
+      <Name>titileContent\DefFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\DefFont.xnb</Output>
+      <Time>2012-11-28T23:32:52.006+09:00</Time>
+    </Item>
+    <Item>
+      <Source>titileContent\OnFont.spritefont</Source>
+      <Name>titileContent\OnFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\OnFont.xnb</Output>
+      <Time>2012-12-07T22:32:17.5628841+09:00</Time>
     </Item>
     <Item>
       <Source>gameContent\untitled.fbx</Source>
@@ -25,11 +34,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\gameContent\untitled.xnb</Output>
+      <Output>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\gameContent\untitled.xnb</Output>
       <Time>2012-12-11T22:14:38.281+09:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\gameContent\untitled_0.xml</Key>
-        <Value>2012-12-17T12:00:46.0074838+09:00</Value>
+        <Value>2012-12-22T11:06:33.5196914+09:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -39,25 +48,16 @@
       <Output>obj\x86\Debug\gameContent\untitled_0.xml</Output>
       <Time>2012-12-11T22:14:38.281+09:00</Time>
     </Item>
-    <Item>
-      <Source>titileContent\DefFont.spritefont</Source>
-      <Name>titileContent\DefFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\titileContent\DefFont.xnb</Output>
-      <Time>2012-11-28T23:32:52.006+09:00</Time>
-    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\</RootDirectory>
-      <LoggerRootDirectory>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProjectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -50,6 +50,7 @@ namespace Tgame
             CharactorPalameter playerPara = new CharactorPalameter();
             playerPara.pos = new Vector3(0);
             playerPara.Dir = new Vector3(0, 0, 1);
+            playerPara.MaxSpeed = 1;
             player = new Player(this.Content.Load<Model>("untitled"), playerPara);
             enemies = new Enemies();
             CharactorPalameter planePara = new CharactorPalameter();

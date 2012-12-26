@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\gameContent\untitled.fbx</SourceFilename>
+      <SourceFilename>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProjectContent\gameContent\untitled.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -31,7 +31,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material</Name>
       <Identity>
-        <SourceFilename>D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\gameContent\untitled.fbx</SourceFilename>
+        <SourceFilename>D:\Users\Yuuri\git\tohogame\TgameProject\TgameProjectContent\gameContent\untitled.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

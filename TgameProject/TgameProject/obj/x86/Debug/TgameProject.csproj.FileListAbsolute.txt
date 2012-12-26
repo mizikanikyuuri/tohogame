@@ -14,3 +14,13 @@ D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\TgameProject\TgameProject\T
 D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\TgameProject\TgameProject\TgameProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\TgameProject\TgameProject\TgameProject\obj\x86\Debug\WindowsGame2.exe
 D:\Users\Yuuri\Documents\Visual Studio 2010\Projects\TgameProject\TgameProject\TgameProject\obj\x86\Debug\WindowsGame2.pdb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\mouseTest.xnb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\DefFont.xnb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\titileContent\OnFont.xnb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\Content\gameContent\untitled.xnb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\WindowsGame2.exe
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\bin\x86\Debug\WindowsGame2.pdb
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\obj\x86\Debug\WindowsGame2.exe
+D:\Users\Yuuri\git\tohogame\TgameProject\TgameProject\obj\x86\Debug\WindowsGame2.pdb
